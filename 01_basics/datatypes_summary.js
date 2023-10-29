@@ -6,6 +6,11 @@
 // Reference (Non Primitive)
 // Arrays, Objects, Functions
 
+
+
+// ##########  Primitive
+// 7 types: String, Number, Boolean, Null, undefined, Symbol, BigInt
+
 const score=100
 const scoreValue=100.3
 
@@ -25,7 +30,7 @@ console.log(id==anotherid)
 // console.log(typeof(bigNumber))
 
 
-// Reference (Non Primitive)
+//########### Reference (Non Primitive)
 // Arrays, Objects, Functions
 
 //array
