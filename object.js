@@ -1,0 +1,39 @@
+//Objects
+//ye key value pair hota hai
+
+//we can create objects of two types 
+//ek me singleton object create hoga - object constructor 
+//or ek me nhi hoga normal object hoga - object literals
+
+//symbol
+mysymbol = Symbol("chaabi-1")
+
+//object literals 
+const obj = {
+    name : "Ayush",
+    age : 23,
+    [mysymbol]: "chaabi - 3",
+    location : "Chhindwara",
+    email : "ayushsuryawanshi004@gmail.com",
+    isloggedin : false
+}
+
+console.log(obj.name)
+console.log(obj["age"])//ye jyada acha tarika hai obj ko access krne ke liye
+
+//now abhi interviewer ne bola ki ek symbol ko object me use krke batao
+//to uske liye sirf ye yaad rkhna h ki symbol ko square bracket me use krna h obj ke andar
+console.log(typeof obj.mysymbol)//ye aapko string dega but aapko to symbol use krna tha
+console.log(typeof [mysymbol])//ye to symbol hai "Congratulations"
+
+//agr object me aap chahte hai ki koi further changes naa kre to use freeze functionality
+// Object.freeze(obj)
+
+console.log(obj)//this will show you the types of chutiyas present in objects
+
+//interviewer: now ab agr object ko function ke saath use krna ho to 
+obj.myfunc = function(){
+    console.log("We are writing inside the myfunc function of obj object, hehe...")
+}
+//to print it
+console.log(obj.myfunc())
