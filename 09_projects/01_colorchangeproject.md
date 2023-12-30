@@ -3,7 +3,7 @@
 
 ## To directly start coding for this project in  javascript only and not to worry about css and html we have created a plateform in stackblitz website where you can practice, click on preview button on top right corner of vs code
 
-[Click Here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
+[Go to stackblitz website](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
 ## Project 1 
 
