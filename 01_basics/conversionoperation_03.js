@@ -12,13 +12,13 @@ console.log(typeof(score))//ye change nhi hoga
 
 // let age=true
 // let age=undefined
-let age="45abc" //ab agr me isko number me convert kru to problem hai but 
+let age="45abc" //ab agr me isko number me convert kru to problem hai kyuki ye alphanumeric h but 
 // mujhe ye bhi to nhi pta ki age ka type kya hai ky wo pure string hai ya number
 // to me ise number me convert krunga phir uske baad value ka type dekhunga
 
 let changeagetype= Number(age);
-console.log(typeof(changeagetype));
-console.log(changeagetype);//ye aapko aapka answer de dega
+console.log("changeagetype:",typeof(changeagetype));
+console.log(changeagetype);//ye aapko NaN answer de dega
 // mtlb ye to convert hui hi nhi,
 // for null age it will give 0 
 // and for undefined in age will give NaN 

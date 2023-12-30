@@ -12,6 +12,8 @@
 let name="Ayush" //string
 let age=23 //number 2 pow(53) then 
 let islogin=false //bool
+let sk=undefined
+console.log(sk)
 // bigint
 // string
 // boolean

@@ -6,7 +6,7 @@
 // Reference (Non Primitive)
 // Arrays, Objects, Functions
 
-//yex
+//ex :
 
 // ##########  Primitive
 // 7 types: String, Number, Boolean, Null, undefined, Symbol, BigInt
@@ -23,7 +23,7 @@ let useremail; //its type is undefined now
 const id = Symbol('123');
 const anotherid = Symbol('123');
 //these are not equal
-console.log(id == anotherid);
+console.log("id==anotherid:",id == anotherid);
 
 // const bigNumber= 234561645615652n;//n will automatically convert const to BigInt
 // console.log(typeof(bigNumber))
@@ -45,4 +45,4 @@ const myfunc = function () {
   console.log('Hello World');
 };
 myfunc();
-console.log(typeof myfunc); //its type function but actually its function object
+console.log(typeof myfunc); //its type is function but actually its function object
