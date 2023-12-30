@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trial Page</title>
-    <style>
+    <!-- <style>
         .bg-black{
             background-color: black;
             color: aliceblue;
         }
-    </style>
-    <script src="myjs.js" ></script>
+    </style> -->
+    
     <!-- <link rel="stylesheet" href="mycss.css"> -->
 </head>
 <body class="bg-black">
     <div class="class-bg">
         <h1 id="title" class="heading">Dom learning with chai aur code <span style="display: none;" >This is a span</span></h1>
+        <h2 id="header1">This is header1</h2>
         <h2>This is header2</h2>
         <h2>This is header3</h2>
         <h2>This is header4</h2>
@@ -31,7 +32,18 @@
       </ul>
     </div>
 </body>
+
+<script  >
+    title = document.getElementById('title')
+    title.style.backgroundColor = "red"
+    
+    console.log(title.innerHTML);//will give html span also which is displayed none
+    console.log(title.innerText);//gives only thing which is showing in the screen
+    console.log(title.textContent);// will give only span value not html span
+</script>
 </html>
+
+
 
 <!-- console=>
 document.getElementById("title")//this will give me h1 tag as a whole
